@@ -4,5 +4,5 @@ export const StyledDice = styled.div`
   justify-content: center;
   align-items: center;
   display: flex;
-  font-size: 10rem;
+  font-size: 8rem;
 `;

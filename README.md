@@ -1,1 +1,11 @@
-# Change this
+# Install
+
+```
+npm i
+```
+
+# Start local host
+
+```
+npm start
+```
