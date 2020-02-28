@@ -6,4 +6,7 @@ export const StyledRollButton = styled.button`
 
 export const StyledRollButtonWrapper = styled.div`
   grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
