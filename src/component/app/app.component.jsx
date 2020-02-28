@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { getDice } from '../../util';
 import { StyledApp } from './app.style';
+import { Title } from '../title';
 
 const RollDiceApp = () => {
   const [diceList, rollDice] = useState(getDice());
   return (
     <StyledApp>
-      <h1>Roll the dice please</h1>
+      <Title titleText='Roll the dice please' />
       {diceList.map(dice => (
         <div>{dice}</div>
       ))}
